@@ -1,4 +1,9 @@
 const cart = new Map();
+
+window.addEventListener('load', () => {
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+});
 const cartPanel = document.querySelector('#cart-panel');
 const cartOverlay = document.querySelector('#cart-overlay');
 const cartItems = document.querySelector('#cart-items');
