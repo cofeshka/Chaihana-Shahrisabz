@@ -33,7 +33,7 @@ img{display:block;width:100%;height:100%;object-fit:cover}
 .cart-button strong{font-size:12px}
 .hero{position:relative;min-height:100svh;overflow:hidden;color:#fff;background:var(--green-dark)}
 .hero-image,.hero-shade{position:absolute;inset:0}
-.hero-image{background:radial-gradient(circle at 78% 20%,rgba(244,200,94,.22),transparent 25%),url('https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=2200&q=90') center/cover no-repeat;transform:scale(1.02)}
+.hero-image{background:radial-gradient(circle at 78% 20%,rgba(244,200,94,.22),transparent 25%),url('glavn%20photo.jpg') center/cover no-repeat;transform:scale(1.02)}
 .hero-shade{background:linear-gradient(110deg,rgba(13,46,31,.9),rgba(26,75,58,.48) 55%,rgba(244,200,94,.15)),linear-gradient(0deg,rgba(13,23,17,.9),transparent 58%)}
 .hero-inner{position:relative;z-index:1;min-height:100svh;display:flex;align-items:center;padding-top:72px}
 .hero-copy{padding:70px 0 30px}
